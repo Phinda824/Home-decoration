@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CommonSection from "../conponents/UI/CommonSection";
 import { Container } from "reactstrap";
+
 import "../styles/shop.css";
 import products from "../assets/data/products";
 import ProductsList from "../conponents/UI/ProductList";
