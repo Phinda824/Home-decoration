@@ -1,0 +1,107 @@
+.table_container {
+  padding: 50px 80px;
+}
+.table_header {
+  width: 900px;
+  list-style: none;
+  background: #ececf0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 100px;
+}
+.table_header li h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #022a36;
+}
+.img_sect {
+  width: 150px;
+}
+.t_name {
+  width: 350px;
+}
+.t_price,
+.t_qty {
+  width: 80px;
+}
+.table_header li p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #5b5a63;
+}
+
+.table_b {
+  width: 900px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0 20px;
+  border-bottom: 0.7px solid #ececf0;
+  border-radius: 100px;
+}
+.b_img {
+  width: 150px;
+}
+.b_img img {
+  width: 70px;
+}
+.b_name {
+  width: 350px;
+  font-size: 18px;
+  color: #5b5a63;
+  font-weight: 500;
+}
+.b_price,
+.b_qty {
+  width: 80px;
+  font-size: 18px;
+  color: #5b5a63;
+  font-weight: 500;
+}
+.b_delete i {
+  font-size: 20px;
+  color: #022a36;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.b_delete i:hover {
+  transform: scale(1.2);
+}
+.report {
+  font-size: 22px;
+  color: #022a36;
+}
+
+.count_section {
+  width: 100%;
+  margin-top: 80px;
+  border-top: 1px solid #b6b5b9;
+  border-bottom: 1px solid #b6b5b9;
+  border-radius: 30px;
+  padding: 30px;
+}
+.count_total h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #022a36;
+}
+.total_amount {
+  font-size: 20px;
+  font-weight: 500;
+  color: #022a36;
+  margin-top: 10px;
+}
+.count_section p {
+  font-size: 18px;
+  color: #5b5a63;
+  margin-top: 10px;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+}

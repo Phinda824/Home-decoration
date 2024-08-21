@@ -1,0 +1,75 @@
+.checkout {
+  padding: 50px 0 80px 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.bill_form {
+  width: 100%;
+}
+.form_group {
+  width: 100%;
+  margin-top: 20px;
+}
+.checkout_cart {
+  width: 60%;
+  margin-top: 20px;
+  background: #ececf0;
+  padding: 40px 100px 40px 40px;
+}
+.count_infor {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.count_infor h1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #022a36;
+}
+.count_infor h1 span {
+  float: right;
+  color: #3b3846;
+}
+.count_infor h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #022a36;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.count_infor h2 p {
+  color: #7c778a;
+  margin-left: -110px;
+}
+.count_infor h2 span {
+  float: right;
+  color: #3b3846;
+}
+.total_cost {
+  font-size: 26px;
+  font-weight: 500;
+  color: #022a36;
+  margin-top: 20px;
+  border-top: 0.5px solid #b8b5c0;
+  padding-top: 10px;
+}
+.total_cost span {
+  float: right;
+}
+.place_order {
+  width: 100%;
+  font-size: 18px;
+  margin-top: 40px;
+  padding: 5px;
+  font-weight: 500;
+  border: 1px solid #7c778a;
+  color: #022a36;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.place_order:hover {
+  background: #7c778a;
+  color: #ececf0;
+}

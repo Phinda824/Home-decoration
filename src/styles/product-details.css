@@ -1,0 +1,163 @@
+.detail_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  padding: 40px 80px;
+}
+.img_container {
+  width: 80%;
+  height: 500px;
+}
+.img_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.product_details h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #022a36;
+}
+.product_rating {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+.stars {
+  font-size: 20px;
+  color: #eb9b08;
+  display: flex;
+  gap: 5px;
+}
+.product_rating p {
+  font-size: 18px;
+  color: #a09fa8;
+}
+.product_rating p span {
+  color: #eb9b08;
+}
+.product_price {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #022a36;
+}
+.product_desc {
+  font-size: 16px;
+  font-weight: 300;
+  color: #5b5a63;
+  margin-top: 25px;
+}
+.buy_btn {
+  margin-top: 50px;
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: 500;
+  background: #022a36;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 1s ease;
+}
+.buy_btn:hover {
+  transform: scale(1.1);
+}
+
+.tab_container {
+  padding: 80px;
+}
+.tab_wrapper {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.tab_wrapper {
+  font-size: 20px;
+  font-weight: 300;
+  color: #022a36;
+  cursor: pointer;
+}
+.tab_content {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #5b5a63;
+  margin-top: 25px;
+  line-height: 30px;
+}
+.active_tab {
+  font-weight: 500;
+}
+.product_review ul {
+  list-style: none;
+}
+.product_review ul li {
+  margin-top: 20px;
+}
+.product_review ul li span {
+  font-size: 18px;
+  color: #eb9b08;
+}
+.product_review ul li p {
+  margin-top: 10px;
+}
+.form_review {
+  margin-top: 50px;
+}
+.form_review h1 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #022a36;
+}
+.form_group {
+  width: 600px;
+  margin-top: 20px;
+}
+.form_group input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #a09fa8;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #a09fa8;
+  outline: none;
+}
+.form_rate {
+  width: 600px;
+  display: flex;
+  flex-direction: flex-start;
+  align-items: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+.form_rate span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.form_rate span i {
+  font-size: 18px;
+  color: #eb9b08;
+  cursor: pointer;
+}
+.form_group textarea {
+  width: 100%;
+  height: 120px;
+  border: 1px solid #a09fa8;
+  padding: 10px;
+  font-size: 16px;
+  color: #a09fa8;
+  outline: none;
+}
+.related_header {
+  font-size: 26px;
+  font-weight: 500;
+  color: #022a36;
+  padding: 0 80px;
+  margin-bottom: -20px;
+}

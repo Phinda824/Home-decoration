@@ -1,0 +1,8 @@
+.item_container {
+  width: 100%;
+  padding: 0 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 80px;
+}

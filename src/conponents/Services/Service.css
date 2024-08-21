@@ -1,0 +1,94 @@
+.card-block {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card-preview {
+  width: 1155px;
+  height: 210px;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px 80px;
+}
+
+.block .icon {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.block i {
+  margin: 0 auto;
+  font-size: 40px;
+  color: #022a36;
+  text-align: center;
+}
+.block p {
+  width: 150px;
+  font-size: 16px;
+  color: #3b3846;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 760px) {
+  .card-block {
+    top: 100%;
+  }
+  .card-preview {
+    width: 600px;
+    height: 150px;
+    gap: 10px;
+    padding: 20px 20px;
+  }
+  .block i {
+    font-size: 26px;
+  }
+  .block p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .card-block {
+    top: 90%;
+  }
+  .card-preview {
+    width: 500px;
+    height: 120px;
+    gap: 7px;
+    padding: 10px;
+  }
+  .block i {
+    font-size: 22px;
+  }
+  .block p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .card-block {
+    top: 95%;
+  }
+  .card-preview {
+    width: 285px;
+    height: 100px;
+    gap: 6px;
+    padding: 7px;
+  }
+  .block i {
+    font-size: 18px;
+  }
+  .block p {
+    width: 100%;
+    font-size: 9px;
+    line-height: 15px;
+  }
+}
