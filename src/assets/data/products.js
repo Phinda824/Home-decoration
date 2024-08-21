@@ -152,14 +152,14 @@ const products = [
 
   {
     id: "06",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Comfortable Arm Chair",
     imgUrl: productImg06,
-    category: "sofa",
+    category: "chair",
     price: 4999.99,
     shortDesc:
-      "Upgrade your living space with the Fllufy Sheep Sofa, a perfect blend of style and functionality",
+      "Upgrade your living space with the Comfortable Arm Chair, a perfect blend of style and functionality",
     description:
-      "The Fllufy Sheep Sofa effortlessly combines modern design with luxurious comfort. Upholstered in a premium fabric, it is available in rich Dark Grey and sleek Platinum, making it a versatile addition to any living space. With its clean lines and generously padded cushions, this sofa is perfect for relaxing in style. Proudly made in South Africa, it reflects quality craftsmanship",
+      "The Comfortable Arm Chair effortlessly combines modern design with luxurious comfort. Upholstered in a premium fabric, it is available in rich Dark Grey and sleek Platinum, making it a versatile addition to any living space. With its clean lines and generously padded cushions, this sofa is perfect for relaxing in style. Proudly made in South Africa, it reflects quality craftsmanship",
     reviews: [
       {
         rating: 4.6,
@@ -197,10 +197,10 @@ const products = [
 
   {
     id: "27",
-    productName: "Modern Arm Sofa",
+    productName: "Baltsar Chair",
     imgUrl: productImg007,
-    category: "sofa",
-    price: 4399.99,
+    category: "chair",
+    price: 1499.99,
     shortDesc:
       "A sophisticated modern design with added cushioned comfort thanks to laser-cut high density foam seat & cushions.",
     description:
@@ -335,29 +335,6 @@ const products = [
 
   {
     id: "28",
-    productName: "Modern Tv Stand",
-    imgUrl: productImg13,
-    category: "stand",
-    price: 1999.99,
-    shortDesc:
-      "A sophisticated modern design with added cushioned comfort thanks to laser-cut high density foam seat & cushions.",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-    reviews: [
-      {
-        rating: 4.6,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      },
-      {
-        rating: 4.9,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-      },
-    ],
-    avgRating: 4.7,
-  },
-
-  {
-    id: "29",
     productName: "Modern Tv Stand",
     imgUrl: productImg13,
     category: "stand",

@@ -1,13 +1,15 @@
 import React from "react";
-import { Container } from "reactstrap";
 import "../../styles/common-section.css";
+
+import background1 from "/images/background5.webp";
 
 const CommonSection = ({ title }) => {
   return (
     <section className="common_section">
-      <Container className="text-center">
+      <img src={background1} alt="" />
+      <div className="text_title">
         <h1>{title}</h1>
-      </Container>
+      </div>
     </section>
   );
 };

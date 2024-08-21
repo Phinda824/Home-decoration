@@ -2,6 +2,7 @@ import React from "react";
 import "./Testimonial.css";
 import face1 from "/images/face1.png";
 import face2 from "/images/face2.jpg";
+import face4 from "/images/face4.avif";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "../../Variants";
@@ -57,9 +58,9 @@ const Testimonial = () => {
           className="person"
         >
           <div className="person-face">
-            <img src={face2} alt="" />
+            <img src={face4} alt="" />
           </div>
-          <div className="name">Fiona Helen</div>
+          <div className="name">Kylen</div>
           <div className="quotes">
             <i class="fa-solid fa-quote-left"></i>
           </div>
