@@ -36,14 +36,6 @@ const Shop = () => {
 
       setProductsData(filteredProducts);
     }
-
-    if (filterValue == "bed") {
-      const filteredProducts = products.filter(
-        (item) => item.category == "bed"
-      );
-
-      setProductsData(filteredProducts);
-    }
   };
 
   const handleSearch = (e) => {
@@ -76,7 +68,6 @@ const Shop = () => {
                   <option value="sofa">Sofa</option>
                   <option value="chair">Chair</option>
                   <option value="stand">Stand</option>
-                  <option value="bed">Bed</option>
                 </select>
               </div>
             </motion.div>
