@@ -13,6 +13,8 @@ import BestProducts from "../conponents/Best_Products/BestProducts";
 import BestShoping from "../conponents/shoping/BestShoping";
 import Testimonial from "../conponents/Testmonial/Testimonial";
 
+import background from "/images/background2.jpg";
+
 const Home = () => {
   const [trendingProducts, setTrendingProducts] = useState([]);
   const [bestSalesProducts, setBestSalesProducts] = useState([]);
@@ -34,6 +36,9 @@ const Home = () => {
   return (
     <div className="container">
       <div className="content">
+        <div className="hero_image">
+          <img src={background} alt="" />
+        </div>
         <div className="content-text">
           <motion.div
             variants={fadeIn("up", 0.2)}
