@@ -355,6 +355,29 @@ const products = [
     ],
     avgRating: 4.7,
   },
+
+  {
+    id: "29",
+    productName: "Modern Tv Stand",
+    imgUrl: productImg13,
+    category: "stand",
+    price: 1999.99,
+    shortDesc:
+      "A sophisticated modern design with added cushioned comfort thanks to laser-cut high density foam seat & cushions.",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.6,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
 ];
 
 export default products;
