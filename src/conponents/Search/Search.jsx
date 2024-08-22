@@ -3,6 +3,7 @@ import "./Search.css";
 
 import products from "../../assets/data/products";
 import ProductsList from "../UI/ProductList";
+import SearchProduct from "./SearchProduct";
 
 const Search = () => {
   const [productsData, setProductsData] = useState([]);
@@ -28,7 +29,7 @@ const Search = () => {
         <div></div>
       ) : (
         <div className="search_results">
-          <ProductsList data={products} />
+          <SearchProduct data={products} />
         </div>
       )}
     </div>
