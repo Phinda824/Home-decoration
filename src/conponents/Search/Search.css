@@ -1,0 +1,24 @@
+.search_container {
+  position: relative;
+}
+.search_container input {
+  width: 380px;
+  height: 45px;
+  font-size: 16px;
+  color: #022a36;
+  border: 1px solid #abbfc5;
+  border-radius: 50px;
+  padding: 5px 10px;
+  outline: none;
+}
+.search_results {
+  width: 1434px;
+  position: absolute;
+  top: 100%;
+  left: -150%;
+  z-index: 1000;
+  background-color: #ffffff;
+  padding: 30px;
+  color: #022a36;
+  text-align: center;
+}

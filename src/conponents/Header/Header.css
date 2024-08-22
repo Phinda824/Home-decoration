@@ -34,6 +34,9 @@
   color: #ca880c;
   margin-left: 15px;
 }
+.midle_section {
+  position: relative;
+}
 .rigth_side {
   position: relative;
 }
