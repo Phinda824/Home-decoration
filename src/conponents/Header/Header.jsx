@@ -9,6 +9,7 @@ import { auth } from "../../firebase.config";
 
 import user from "/images/User1.webp";
 import logoIcon from "/images/logo.png";
+import Search from "../Search/Search";
 
 const nav_links = [
   {
@@ -60,6 +61,10 @@ const Header = () => {
           <Link to="/home">
             <img src={logoIcon} alt="" />
           </Link>
+        </div>
+
+        <div className="midle_section">
+          <Search />
         </div>
 
         <div className="rigth_side">
