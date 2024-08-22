@@ -13,7 +13,7 @@ import BestProducts from "../conponents/Best_Products/BestProducts";
 import BestShoping from "../conponents/shoping/BestShoping";
 import Testimonial from "../conponents/Testmonial/Testimonial";
 
-import background from "/images/background2.jpg";
+import background from "../../images/background2.jpg";
 
 const Home = () => {
   const [trendingProducts, setTrendingProducts] = useState([]);

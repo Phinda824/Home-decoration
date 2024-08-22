@@ -23,7 +23,7 @@ const products = [
     productName: "Stone and Beam Westview ",
     imgUrl: productImg01,
     category: "sofa",
-    price: 5399.99,
+    price: 5000.0,
     shortDesc:
       "A sophisticated modern design with added cushioned comfort thanks to laser-cut high density foam seat & cushions.",
     description:

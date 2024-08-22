@@ -52,7 +52,7 @@ const Cart = () => {
               >
                 <div className="count_total">
                   <h1>Subtotal</h1>
-                  <div className="total_amount">${totalAmount}</div>
+                  <div className="total_amount">R{totalAmount}</div>
                 </div>
                 <p>Taxes and shipping will calculate in checkout</p>
               </motion.div>

@@ -73,12 +73,14 @@
   display: flex;
   justify-content: flex-start;
   gap: 30px;
+  border-bottom: 1px solid #eae9ee;
 }
-.tab_wrapper {
+.tab_wrapper h7 {
   font-size: 20px;
   font-weight: 300;
   color: #022a36;
   cursor: pointer;
+  padding: 10px;
 }
 .tab_content {
   margin-top: 30px;
@@ -90,6 +92,8 @@
 }
 .active_tab {
   font-weight: 500;
+  background: #eae9ee;
+  border-radius: 10px 10px 0 0;
 }
 .product_review ul {
   list-style: none;

@@ -99,7 +99,7 @@ const ProductDetails = () => {
             </p>
           </div>
 
-          <div className="product_price">${price}</div>
+          <div className="product_price">R {price}</div>
           <div className="product_desc">{shortDesc}</div>
 
           <button className="buy_btn" onClick={addToCart}>
@@ -132,7 +132,6 @@ const ProductDetails = () => {
               <ul>
                 {reviews?.map((item, index) => (
                   <li key={index}>
-                    <h7>Phinda Simanga</h7>
                     <span>{item.rating} (rating)</span>
                     <p>{item.text}</p>
                   </li>
