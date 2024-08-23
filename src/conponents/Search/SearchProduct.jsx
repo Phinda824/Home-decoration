@@ -5,7 +5,11 @@ import products from "../../assets/data/products";
 const SearchProduct = () => {
   return (
     <div className="searchProduct_container">
-      <div className="search_img"></div>
+      {products.map((item, index) => (
+        <div className="search_img" key={index}>
+          <img src={item.imgUrl} alt="" />
+        </div>
+      ))}
     </div>
   );
 };
