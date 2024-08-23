@@ -9,7 +9,6 @@ import { fadeIn } from "../Variants";
 import Service from "../conponents/Services/Service";
 import ProductList from "../conponents/UI/ProductList";
 import Collections from "../conponents/Collections/Collections";
-import BestProducts from "../conponents/Best_Products/BestProducts";
 import BestShoping from "../conponents/shoping/BestShoping";
 import Testimonial from "../conponents/Testmonial/Testimonial";
 
