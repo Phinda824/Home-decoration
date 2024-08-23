@@ -1,17 +1,23 @@
 import React from "react";
 import "./SearchProduct.css";
 
-import products from "../../assets/data/products";
+import { Link } from "react-router-dom";
 
-const SearchProduct = () => {
+const SearchProduct = ({ data }) => {
   return (
     <div className="searchProduct_container">
-      {products.map((item, index) => (
+      {data.map((item, index) => (
         <div className="search_section" key={index}>
-          <img src={item.imgUrl} alt="" />
+          <Link to={`/shop/${item.id}`}>
+            <img src={item.imgUrl} alt="" />
+          </Link>
           <div className="item_section">
-            <h1>{item.productName}</h1>
-            <p>R {item.price}</p>
+            <Link to={`/shop/${item.id}`}>
+              <h1>{item.productName}</h1>
+            </Link>
+            <Link to={`/shop/${item.id}`}>
+              <p>R {item.price}</p>
+            </Link>
           </div>
         </div>
       ))}
