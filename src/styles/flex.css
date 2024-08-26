@@ -13,8 +13,14 @@
     row-gap: 50px;
   }
 }
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 572px) {
   .item_container {
     grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width: 325px) {
+  .item_container {
+    grid-template-columns: 1fr;
+    padding: 0 30px;
   }
 }

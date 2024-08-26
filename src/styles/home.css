@@ -156,9 +156,8 @@
     font-size: 26px;
     line-height: 36px;
   }
-  .container p {
-    font-size: 14px;
-    line-height: 24px;
+  .heading span {
+    font-size: 28px;
   }
   .shop-btn {
     margin-top: 40px;

@@ -193,6 +193,10 @@ a {
   .top_nav {
     padding: 15px 30px;
   }
+  .logo_img img {
+    width: 80px;
+    cursor: pointer;
+  }
   .midle_section {
     display: none;
   }

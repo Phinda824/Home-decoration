@@ -62,7 +62,8 @@
     padding: 0px 30px 80px 30px;
   }
   .testimony-container {
-    gap: 30px;
+    flex-direction: column;
+    gap: 50px;
     margin-top: 60px;
   }
   .person p {
