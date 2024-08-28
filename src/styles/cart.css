@@ -105,3 +105,118 @@
   display: flex;
   gap: 20px;
 }
+
+@media only screen and (max-width: 760px) {
+  .table_container {
+    padding: 50px 30px;
+  }
+  .table_header {
+    width: 100%;
+  }
+
+  .table_b {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .b_img {
+    width: 140px;
+  }
+  .b_img img {
+    width: 70px;
+  }
+  .b_name {
+    width: 330px;
+  }
+  .b_price,
+  .b_qty {
+    width: 100px;
+  }
+  .b_delete i {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .table_header li h1 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .table_header li p {
+    font-size: 16px;
+  }
+  .b_name {
+    font-size: 16px;
+  }
+  .b_price,
+  .b_qty {
+    font-size: 16px;
+  }
+  .b_delete i {
+    font-size: 18px;
+  }
+
+  .count_total h1 {
+    font-size: 22px;
+  }
+  .total_amount {
+    font-size: 28px;
+  }
+  .count_section p {
+    font-size: 16px;
+  }
+  .buttons {
+    display: flex;
+    gap: 20px;
+  }
+  .buy_btn a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .table_container {
+    padding: 50px 20px;
+  }
+  .b_img {
+    width: 120px;
+  }
+  .b_img img {
+    width: 40px;
+  }
+  .b_name {
+    width: 100px;
+  }
+  .table_header li h1 {
+    font-size: 14px;
+  }
+  .table_header li p {
+    font-size: 12px;
+  }
+  .b_name {
+    font-size: 12px;
+  }
+  .b_price,
+  .b_qty {
+    font-size: 12px;
+  }
+  .b_delete i {
+    font-size: 18px;
+  }
+
+  .count_total h1 {
+    font-size: 22px;
+  }
+  .total_amount {
+    font-size: 24px;
+  }
+  .count_section p {
+    font-size: 14px;
+  }
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .buy_btn a {
+    font-size: 14px;
+  }
+}
