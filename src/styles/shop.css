@@ -53,3 +53,37 @@ select {
   text-align: center;
   margin-top: 30px;
 }
+@media only screen and (max-width: 760px) {
+  .container-section {
+    gap: 20px;
+    padding: 30px;
+  }
+  .filter_widget {
+    width: 200px;
+  }
+  .search_box {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .container-section {
+    gap: 20px;
+    padding: 30px;
+  }
+  .filter_widget {
+    width: 150px;
+  }
+  .search_box {
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 325px) {
+  .container-section {
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+  }
+  .filter_widget {
+    width: 270px;
+  }
+}
